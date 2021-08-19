@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ordered_products",
+  "info": {
+    "name": "OrderedProducts",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "discount": {
+      "type": "string"
+    },
+    "generalCategory": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "salePrice": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "unique": {
+      "type": "string"
+    },
+    "orderNumber": {
+      "type": "string"
+    },
+    "ipAddress": {
+      "type": "string"
+    },
+    "userAgent": {
+      "type": "string"
+    }
+  }
+}

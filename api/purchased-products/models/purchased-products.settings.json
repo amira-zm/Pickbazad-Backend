@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "purchased_products",
+  "info": {
+    "name": "PurchasedProducts"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "discount": {
+      "type": "string"
+    },
+    "generalCategory": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "salePrice": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "unique": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    }
+  }
+}

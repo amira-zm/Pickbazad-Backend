@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "added_products",
+  "info": {
+    "name": "addedProducts",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "unique": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "discount": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "salePrice": {
+      "type": "string"
+    },
+    "generalCategory": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "orderNumber": {
+      "type": "string"
+    }
+  }
+}
